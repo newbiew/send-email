@@ -14,7 +14,6 @@
 	<![endif]-->
 
 	<style type="text/css">
-
 		/* Common Email Client Fixing */
 		#outlook a            { padding:0; }
 		.ReadMsgBody          { width:100%; }
@@ -39,7 +38,6 @@
 		.appleLinksWhite a    { color:#FFFFFF !important; text-decoration:none !important; }
 		a[href^=tel]          { color:#000000 !important; text-decoration:none; }
 		a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
-
 		/* Media Query */
 		@media only screen and ( max-width:480px ) {
 			body,table,td,p,a,li,blockquote{
@@ -48,14 +46,11 @@
 			body{
 				width:auto !important;
 			}
-
 			a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
-
 			table[id="container"] { width:100%; }
 			td[class="p30"] { padding:15px!important; }
 			img[class="hero"] { width:100%!important; }
 		}
-
 	</style>
 	</head>
 
@@ -79,34 +74,28 @@
 								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<td align="left" valign="top" style="padding:30px;" class="p30">
-											
+
 											<table border="0" cellpadding="0" cellspacing="0" width="100%">
 												<tr>
 													<td align="left" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px;">
 														Dear {{ $contact->fullname }},<br><br>
-														As part of our annual local tradition of gifting a ‘red packet’ to employees during the Lunar New Year, and on behalf of the local management team, please access your ‘red packet’ via the unique below.<br><br>														 
-														<b style="color:#9F2842">Your 'red packet' code: {{ $contact->code }}</b><br><br>														 
-														As we welcome the year of the metal Ox, I wish you great health, good wealth, and a year full of blessings, for you and your loved ones.
+														As we user in the year of the metal Ox, I wish you great health, good wealth, and a year full of blessings, for you and your loved ones. It is an annual local tradition to gift local employees a “red packet” during the Lunar New Year, which symbolises luck and prosperity. On behalf of the Singapore Management team, please find you unique promo code below which you can use online at grocery store <a href="https://www.fairprice.com.sg/">NTUC Fair Price</a>. Learn more on how you can use this promo code by <a href="https://nowcomms.asia/vmonlineassets/cny2021/FairPrice-Online-Promo-Code_Redemption-Guide_vDec-2020.pdf">clicking here</a>.<br><br>
+														<b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b>
 													</td>
 												</tr>
 												<tr>
-													<td align="left" valign="top" style="color:#999999; font-family:arial,sans-serif; font-size:11px; padding-top:20px;">
-														<i>click on the <a href="https://nowcomms.asia/vmonlineassets/cny2021/FairPrice-Online-Promo-Code_Redemption-Guide_vDec-2020.pdf">link</a> to learn how to use your 'red packet'</i>
-													</td>
-												</tr>
-												<tr>
-													<td align="left" valign="top" style="padding-top:20px;">
+													<td align="center" valign="top" style="padding-top:20px;">
 														<img src="https://nowcomms.asia/vmonlineassets/cny2021/ecard_compressed.gif" width="420" class="hero" />
 													</td>
 												</tr>
 											</table>
-											
+
 										</td>
 									</tr>
 								</table>
 							</td>
 						</tr>
-						
+
 						<tr>
 							<td align="left" valign="top">
 								<img src="https://nowcomms.asia/vmonlineassets/cny2021/footer.png" width="600" class="hero" />
