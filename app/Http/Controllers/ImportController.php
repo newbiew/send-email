@@ -65,10 +65,10 @@ class ImportController extends Controller
             //     }
             // }
 
-            // $csv_data = $data;
+            $csv_data = $data;
 
 
-            $csv_data = array_slice($data, 0, 2);
+            // $csv_data = array_slice($data, 0, 2);
 
             $csv_data_file = CsvData::create([
                 'csv_filename' => $request->file('csv_file')->getClientOriginalName(),
@@ -102,8 +102,7 @@ class ImportController extends Controller
             $contact->save();
 
             dispatch(new \App\Jobs\SendEmail($contact));
-            // Mail::to($row['email'])->queue(new SendVoucherEmail($contact));
-            dd("done");
+          
         }
 
         return view('import_success');
