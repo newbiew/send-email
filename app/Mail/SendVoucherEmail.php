@@ -32,6 +32,7 @@ class SendVoucherEmail extends Mailable
     public function build()
     {
         return $this->from(env('SENDER_EMAIL','sender@sender.com'))
+        ->subject("Happy Lunar New Year")
         ->view('mail.voucher-email');
 
     }
