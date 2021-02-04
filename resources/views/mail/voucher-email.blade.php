@@ -79,10 +79,14 @@
 												<tr>
 													<td align="left" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px;">
 														Dear {{ $contact->fullname }},<br><br>
-														As we user in the year of the metal Ox, I wish you great health, good wealth, and a year full of blessings, for you and your loved ones. It is an annual local tradition to gift local employees a “red packet” during the Lunar New Year, which symbolises luck and prosperity. On behalf of the Singapore Management team, please find you unique promo code below which you can use online at grocery store <a href="https://www.fairprice.com.sg/">NTUC Fair Price</a>. Learn more on how you can use this promo code by <a href="https://nowcomms.asia/vmonlineassets/cny2021/FairPrice-Online-Promo-Code_Redemption-Guide_vDec-2020.pdf">clicking here</a>.<br><br>
-														<b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b>
+														As we user in the year of the Metal Ox, I wish you great health, good wealth, and a year full of blessings for you and your loved ones. It is an annual local tradition to gift local employees a “red packet” during the Lunar New Year, which symbolises luck and prosperity. On behalf of the Singapore Management team, please find your unique promo code below which you can use online at grocery store <a href="https://www.fairprice.com.sg/">NTUC Fair Price</a>. Learn more on how you can use this promo code by <a href="https://nowcomms.asia/vmonlineassets/cny2021/FairPrice-Online-Promo-Code_Redemption-Guide_vDec-2020.pdf">clicking here</a>.
 													</td>
 												</tr>
+                                                <tr>
+                                                    <td align="center" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px; padding-top:20px;">
+                                                        <b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b>
+                                                    </td>
+                                                </tr>
 												<tr>
 													<td align="center" valign="top" style="padding-top:20px;">
 														<img src="https://nowcomms.asia/vmonlineassets/cny2021/ecard_compressed.gif" width="420" class="hero" />
