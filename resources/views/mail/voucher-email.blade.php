@@ -91,7 +91,7 @@
                                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                 <tr>
                                                     <td align="center" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px; padding-top:20px; text-align:center;">
-                                                        <b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b>
+                                                        <center><b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
