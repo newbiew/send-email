@@ -70,7 +70,7 @@
 						</tr>
 
 						<tr>
-							<td align="left" valign="top">
+							<td align="center" valign="top">
 								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<td align="left" valign="top" style="padding:30px;" class="p30">
@@ -83,7 +83,7 @@
 													</td>
 												</tr>
                                                 <tr>
-                                                    <td align="center" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px; padding-top:20px;">
+                                                    <td align="center" valign="top" style="color:#565656; font-family:arial,sans-serif; font-size:14px; line-height:20px; padding-top:20px; text-align:center;">
                                                         <b style="color:#9F2842; font-size:18px;">Your unique promo code: {{ $contact->code }}</b>
                                                     </td>
                                                 </tr>
