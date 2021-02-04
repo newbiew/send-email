@@ -73,7 +73,7 @@
 							<td align="center" valign="top">
 								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
-										<td align="left" valign="top" style="padding:30px;" class="p30">
+										<td align="center" valign="top" style="padding:30px;" class="p30">
 
 											<table border="0" cellpadding="0" cellspacing="0" width="100%">
 												<tr>
